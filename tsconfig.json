@@ -25,6 +25,10 @@
         "dist/libs/todo",
         "dist/libs/todo/libs-todo",
         "dist/libs/todo"
+      ],
+      "@libs/my-library": [
+        "dist/libs/my-library/libs-my-library",
+        "dist/libs/my-library"
       ]
     }
   },

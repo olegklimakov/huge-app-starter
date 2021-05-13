@@ -3,11 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start-app": "ng serve todo",
+    "build-app": "ng build todo",
+    "start-lib": "ng build @libs/my-library --watch"
   },
   "private": true,
   "dependencies": {
