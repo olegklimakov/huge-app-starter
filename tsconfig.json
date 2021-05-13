@@ -16,20 +16,14 @@
       "dom"
     ],
     "paths": {
+      "@libs/my-lib": [
+        "dist/libs/my-lib/libs-my-lib",
+        "dist/libs/my-lib"
+      ],
       "todo": [
         "dist/todo/todo",
         "dist/todo"
       ],
-      "@libs/todo": [
-        "dist/libs/todo/libs-todo",
-        "dist/libs/todo",
-        "dist/libs/todo/libs-todo",
-        "dist/libs/todo"
-      ],
-      "@libs/my-library": [
-        "dist/libs/my-library/libs-my-library",
-        "dist/libs/my-library"
-      ]
     }
   },
   "angularCompilerOptions": {

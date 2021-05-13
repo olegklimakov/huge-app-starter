@@ -5,7 +5,7 @@
     "ng": "ng",
     "start-app": "ng serve todo",
     "build-app": "ng build todo",
-    "start-lib": "ng build @libs/my-library --watch"
+    "start-lib": "ng build @libs/my-lib --watch"
   },
   "private": true,
   "dependencies": {
