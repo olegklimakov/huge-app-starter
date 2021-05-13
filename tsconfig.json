@@ -14,7 +14,19 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "todo": [
+        "dist/todo/todo",
+        "dist/todo"
+      ],
+      "@libs/todo": [
+        "dist/libs/todo/libs-todo",
+        "dist/libs/todo",
+        "dist/libs/todo/libs-todo",
+        "dist/libs/todo"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
