@@ -22,7 +22,6 @@
             "main": "apps/todo/src/main.ts",
             "polyfills": "apps/todo/src/polyfills.ts",
             "tsConfig": "apps/todo/tsconfig.app.json",
-            "aot": true,
             "assets": [
               "apps/todo/src/favicon.ico",
               "apps/todo/src/assets"
@@ -30,7 +29,13 @@
             "styles": [
               "apps/todo/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
